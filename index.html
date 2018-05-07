@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl954c983e271c3ec7f21b2b79e83e6310"/>
   <meta charset="utf-8">
   <title>undefined</title>
@@ -275,7 +275,8 @@ body {
       var score_holder = $("#score_count");
 
       function falling() {
-        for (let i = 1; i < 3; i++) {
+          for (let i = 1; i < 3; i++) {
+              console.log(i);
           document.getElementById("fire_t" + i).style.display = "none";
           document.getElementById("plus_t" + i).style.display = "none";
         }
